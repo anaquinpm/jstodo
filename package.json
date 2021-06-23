@@ -1,0 +1,24 @@
+{
+    "name": "crud-sinrelleno",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "@popperjs/core": "^2.9.2",
+        "bootstrap": "^5.0.2",
+        "bootswatch": "^5.0.2",
+        "jquery": "^3.6.0",
+        "undefined": "^0.1.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    }
+}
