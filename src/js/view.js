@@ -6,33 +6,33 @@ export default class View {
     this.table = document.getElementById('table');
     this.addTodoForm = new AddTodo();
 
-    this.addTodoForm.onClick((title, description) => this.addTodo(title,description));
+    this.addTodoForm.onClick((title, description) => this.addTodo(title, description));
   }
 
-  setModel(model){
+  setModel(model) {
     this.model = model;
   }
 
-  render(){
+  render() {
     const todos = this.model.getTodos();
     todos.forEach(todo => this.createRow(todo));
   }
 
-  addTodo(title, description){
-    const todo = this.model.addTodo(title,description);
+  addTodo(title, description) {
+    const todo = this.model.addTodo(title, description);
     this.createRow(todo);
   }
 
-  toggleCompleted(id){
+  toggleCompleted(id) {
     this.model.toggleCompleted(id);
   }
 
-  removeTodo(id){
+  removeTodo(id) {
     this.model.removeTodo(id);
     document.getElementById(id).remove();
   }
 
-  createRow(todo){
+  createRow(todo) {
     console.log(todo);
     const row = table.insertRow();
     row.setAttribute('id', todo.id);

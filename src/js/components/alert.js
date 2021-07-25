@@ -8,7 +8,7 @@ export default class Alert {
     this.alert.innerHTML = message;
   }
 
-  hide(){
+  hide() {
     this.alert.classList.add('d-none');
   }
 }

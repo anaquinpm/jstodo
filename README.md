@@ -14,6 +14,9 @@ Tasks remain stored in the web browser, even if closing it completely.
 
 ![Screen](./todo_list.PNG)
 
+## Links
+
+- Live Site URL on Netlify: [https://todo-list-anaquinpm.netlify.app/](https://todo-list-anaquinpm.netlify.app/)
 # NPM instalation
 
 ```bash

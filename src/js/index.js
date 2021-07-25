@@ -8,7 +8,7 @@ import "bootswatch/dist/darkly/bootstrap.min.css";
 import Model from './model.js';
 import View from './view.js';
 
-document.addEventListener('DOMContentLoaded',() => {
+document.addEventListener('DOMContentLoaded', () => {
   const model = new Model();
   const view = new View();
 
